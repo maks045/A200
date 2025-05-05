@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color:  #FFFFFF;
+}
+.section7 {
+    width: 1440px;
+    margin: 40px auto;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.Background {
+    width: 1439px;
+    margin-top: 150px;
+    height: 432px;
+    
+    background-image: url(../img/Remont.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.Background2 {
+    width: 1439px;
+    height: 900px;
+    background-image: url(../img/e963f5b0326b8df38be596da867d96845006ac20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.inform {
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.radio-group {
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+  
+  .custom-radio {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .custom-radio input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    margin-right: 12px;
+    transition: border-color 0.2s;
+    background-color: white;
+  }
+  
+  .custom-radio input[type="radio"]:checked {
+    border-color: yellow;
+    background-color: yellow;
+  }
+  
+  .radio-label {
+    color: white;
+  }
+  button{
+    background-color: #FCDF00;
+    
+  }
+  .Background3{
+    background-color: #1A246F;
+  }
+  .inblock2 {
+    position: relative;
+    margin-left: 700px;
+    padding-top: -300px;
+  }
+
+  h3 {
+    font-size: 18px;
+    color: #1A236ECC;
+  }
